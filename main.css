@@ -1,0 +1,43 @@
+html, body {
+    height:100%;
+    background-image: url("wheat1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /*height: 100%;*/
+    background-position: center center;
+    
+    color: #4c3e359;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    /*font-family: 'Playfair', serif;*/
+
+}
+
+.navbar {
+   background:rgba(255,255,255,0.5)!important;
+   
+}
+
+.titleContainer{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.title{
+    color:white;
+    font-size:14vw;
+    font-family: 'Playfair', serif;
+    margin-top:-50px;
+    
+}
+
+.subTitle{
+    font-size:7vw;
+    margin-top:-1em;
+    font-style: italic;
+    font-family: 'Playfair', serif;
+
+}
