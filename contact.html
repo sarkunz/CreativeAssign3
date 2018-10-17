@@ -6,7 +6,22 @@
     <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway|Source+Sans+Pro:400,400i" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    
+    <!--TODO: get api key and insert map-->
+     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+     <script>
+         $(document).ready(function() {
+           function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+         });
+    </script>
+</head>
 
 
 <body>
@@ -30,10 +45,35 @@
         </div>
     </nav>
     
-    <div id="map"></div>
-    <div>CONTACT PG</div>
+    <div id="map" style="display:none"></div>
+    <div class='parallax'>
+        <div class='title'>Contact Us</div>
+    </div>
+    
+    <div>
+        <div class="label arrangements">Please call ahead to make arrangements</div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="label">Call Sharon at: </td>
+                    <td>(801)555-4321 or (801)555-5432</td>
+                </tr>
+                <tr>
+                    <td class="label">Call Jeff at: </td>
+                    <td>(801)555-1234</td>
+                </tr>
+                <tr>
+                    <td class="label">Located at: </td>
+                    <td>3215 West 3000 North <br> Benson, Utah</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+    
+    <div class="otherstuff"></div>
 
 
 </body>
-
+    
 </html>

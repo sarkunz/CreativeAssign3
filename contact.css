@@ -1,4 +1,62 @@
-#map{
-    height:300px;
-    width:400px;
+body, html { 
+    color: #4c3e359;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    /*font-family: 'Playfair', serif;*/
+    height: 100%;
+
 }
+
+.navbar {
+   background:rgba(255,255,255,0.6)!important;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("field2.jpg");
+
+    /* Full height */
+    height: 70%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.title{
+    color:white;
+    font-size:7vw;
+    font-family: 'Playfair', serif;
+}
+
+.label{
+    font-weight:bold;
+    padding:1em;
+}
+
+table{
+    margin-left:1em;
+}
+
+
+.arrangements{
+    padding:1em;
+    background-color:#cbd897;
+    color: white;
+    margin-bottom:1em;
+}
+/*tr:first-child{*/
+/*    margin:1em;*/
+/*}*/
+
+.otherstuff{
+    height:1000px;
+}
+
