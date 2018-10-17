@@ -1,0 +1,75 @@
+/*Common code*/
+
+body, html { 
+    color: #4c3e359;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    /*font-family: 'Playfair', serif;*/
+    height: 100%;
+
+}
+
+.navbar {
+   background:rgba(255,255,255,0.4)!important;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("seed1.jpg");
+
+    /* Full height */
+    height: 70%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.title{
+    color:white;
+    font-size:7vw;
+    font-family: 'Playfair', serif;
+}
+
+.seedList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.seedItem{
+    margin-bottom:2em;
+    /*margin-left:2em;*/
+    height:25vw;
+    width:25vw;
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    line-height:25vw;
+    color: white;
+    font-size: larger;
+}
+
+
+.seedItem:hover{
+    opacity:.5;
+    color: #4c3e359;
+}
+
+.price{
+    /*display:none;*/
+}
+
+
+.otherstuff{
+     height:1000px;
+}
+   
